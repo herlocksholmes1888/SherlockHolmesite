@@ -1,5 +1,5 @@
 :root {
-    --color-neutral-0: #0e0c0e;
+    --color-neutral-0: #0e0e0c;
     --color-neutral-10: #171717;
     --color-neutral-20: #808080;
     --color-neutral-30: #a8a29e;
@@ -26,7 +26,7 @@ header {
 
 footer {
     width: 100%;
-    color: var(--color-neutral-40)
+    color: var(--color-neutral-40);
 }
 
 #footer-content {
@@ -47,8 +47,8 @@ footer {
 }
 
 #footer-social-media .footer-link {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2rem;
+    width: 2rem;
     color: var(--color-neutral-40);
     border-radius: 50%;
     display: flex;
@@ -57,7 +57,7 @@ footer {
 }
 
 #footer-social-media .footer-link i {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
 }
 
 #footer-social-media .footer-link:hover {
@@ -69,6 +69,8 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
+    font-size: 0.9rem;
+    padding: 1rem;
 }
 
 .footer-list {
@@ -92,6 +94,44 @@ footer {
     gap: 1rem;
 }
 
-#footer-subscripe p {
+#footer-subscribe p {
     color: var(--color-neutral-30);
+}
+
+#input-group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input-group input {
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input-group button {
+    background-color: var(--color-neutral-30);
+    border: none;
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+#input-group button:hover {
+    opacity: 0.5;
+}
+
+#about-css {
+    height: 80vh;
+}
+
+#contact-css {
+    height: 80vh;
+}
+
+#legal-css {
+    height: 80vh;
 }
